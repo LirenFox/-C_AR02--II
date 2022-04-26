@@ -11,7 +11,9 @@ int main()
         cin >> temp;
         arr.push_back(temp);
     }
-    for(int i=5; i>=0; i--)
+    for(int i=5; i>=1; i--)
         cout << arr[i] << ' ';
+    cout << arr[0] << endl;
     return 0;
 }
+
